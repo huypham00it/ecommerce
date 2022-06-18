@@ -14,9 +14,10 @@ function Login() {
 
         signInWithEmailAndPassword(auth, email, password)
             .then((userCredential) => {
+                // do something with the user
                 navigate('/');
             })
-            .catch(error => alert(error.message))
+            .catch(error => alert('Login failed!'));
 
     }
 
@@ -29,7 +30,7 @@ function Login() {
                     navigate('/login');
                 }
             })
-            .catch(error => alert(error.message))
+            .catch(error => alert('Registration failed!'));
 
     }
 
