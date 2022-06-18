@@ -1,9 +1,8 @@
 import React from 'react';
 
-import Product from './Product';
+import Product from '../../components/Product';
 import './Home.css';
-import bannerImg from './assets/banner.jpg';
-
+import bannerImg from '../../assets/banner.jpg';
 
 const Home = () => {
   return (

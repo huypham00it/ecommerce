@@ -1,8 +1,8 @@
 import React from 'react'
 
-import { useStateValue } from './StateProvider';
+import { useStateValue } from '../../ContextAPI/StateProvider';
 import './Product.css';
-import Image1 from './assets/image1.jpg';
+import Image1 from '../../assets/image1.jpg';
 
 const Product = ({id, title, image, price, rating}) => {
 

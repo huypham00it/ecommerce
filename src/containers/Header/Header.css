@@ -19,7 +19,7 @@
 .header__logoImage {
     margin-right: 10px;
     height: 50px;
-    background: url('./assets/nav-logo.png');
+    background: url('../../assets/nav-logo.png');
     width: 160px;
     background-position: 21px -37px;
 }

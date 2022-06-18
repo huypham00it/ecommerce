@@ -1,9 +1,9 @@
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 
-import Home from './Home';
-import Header from './Header';
-import Checkout from './Checkout';
-import Login from './Login';
+import Home from './containers/Home';
+import Header from './containers/Header';
+import Checkout from './containers/Checkout';
+import Login from './containers/Login';
 import './App.css';
 
 function App() {
