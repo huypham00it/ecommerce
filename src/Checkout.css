@@ -1,0 +1,33 @@
+.checkout {
+    display: flex;
+    padding: 20px;
+    background-color: #eaeded;
+    justify-content: space-between;
+}
+
+.checkout > div {
+    background-color: #fff;
+}
+
+.checkout__title {
+    margin-right: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.checkout__left {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-right: 20px;
+    justify-content: center;
+}
+
+.no-products {
+    text-align: center;
+}
+
+.checkout__right {
+    height: max-content;
+}
